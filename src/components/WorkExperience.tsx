@@ -31,14 +31,14 @@ export function WorkExperienceItem({
     <div
       className={cn("group relative mb-12 rounded-lg border p-6", className)}
     >
-      <div className="mb-4 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <div className="flex h-12 w-12 items-center justify-center rounded-lg border bg-background">
-            <img src={logoUrl} alt="" className="rounded-lg" />
+      <div className="mb-4 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex items-start gap-4">
+          <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg border bg-background overflow-hidden">
+            <img src={logoUrl} alt="" className="h-full w-full object-cover" />
           </div>
-          <div>
+          <div className="flex-1 min-w-0">
             <h3 className="text-xl font-bold">{title}</h3>
-            <div className="flex items-center text-muted-foreground">
+            <div className="flex flex-col gap-1 text-sm text-muted-foreground sm:flex-row sm:items-center sm:gap-2">
               {companyUrl ? (
                 <a
                   href={companyUrl}
@@ -52,11 +52,14 @@ export function WorkExperienceItem({
               ) : (
                 <span>{company}</span>
               )}
-              {location && <span className="ml-2">· {location}</span>}
+              {location && (
+                <span className="hidden sm:inline">·</span>
+              )}
+              {location && <span>{location}</span>}
             </div>
           </div>
         </div>
-        <div className="font-mono text-sm text-muted-foreground">
+        <div className="font-mono text-sm text-muted-foreground whitespace-nowrap">
           {period.from} - {period.to}
         </div>
       </div>
