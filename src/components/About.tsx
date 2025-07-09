@@ -73,23 +73,23 @@ export function About() {
             <h3 className="mb-4 text-xl font-bold">Who I Am</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm Jordi Coll, a software developer and UI/UX designer with a
-                passion for creating intuitive and performant digital
-                experiences. Currently working as a Lead Software Developer at
-                WeSMILE, I'm focused on building reliable applications that
-                blend creativity with technical excellence.
+                I'm Jordi Coll, a software developer with a passion for solving
+                real world challenges in the web application world. Currently I
+                am studying in the Netherlands, and working on the side as a
+                Software Developer at wesmile, I'm focused on building reliable
+                applications that blend creativity with technical excellence.
               </p>
               <p>
-                My journey in tech began with design, which gives me a unique
-                perspective when approaching software development. I believe in
-                thoughtfully designed systems that consider both user needs and
-                technical sustainability.
-              </p>
-              <p>
-                When I'm not coding, you can find me exploring new design
-                trends, experimenting with interactive prototypes, or
-                contributing to open-source projects that align with my
-                interests in AI and web technologies.
+                {" "}
+                I have been into web development for a couple of years now. When
+                I'm not coding, you can find me exploring business oportunities,
+                like my{" "}
+                <a className="underline text-black" href="https://pokerot.com">
+                  pokerot
+                </a>{" "}
+                business or exploring the new AI trends! I am always open for a
+                conversation about anything interesting that you might have
+                going on.
               </p>
             </div>
           </div>
