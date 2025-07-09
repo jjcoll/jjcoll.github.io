@@ -5,10 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jjcoll - portfolio</title>
-    <script type="module" crossorigin src="/assets/index.C3sOCIyd.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index.BOz1JpQS.css">
+    <script type="module" crossorigin src="/assets/index.CYoGakES.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index.DJkGZqIU.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Handle GitHub Pages SPA routing
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </body>
 </html>
