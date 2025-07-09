@@ -1,6 +1,8 @@
 import { Mail, MessageSquare, Linkedin } from "lucide-react";
 
-import { SiGithub, SiX } from "@icons-pack/react-simple-icons";
+import { SiGithub } from "@icons-pack/react-simple-icons";
+import { FaMedium } from "react-icons/fa";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -41,12 +43,12 @@ export function Contact() {
       },
     },
     {
-      title: "Twitter",
-      description: "Follow me on Twitter for updates and thoughts on tech.",
-      icon: <SiX className="h-6 w-6" />,
+      title: "Medium",
+      description: "Read my articles about software development.",
+      icon: <FaMedium className="h-6 w-6" />,
       action: {
-        text: "Follow",
-        href: "https://twitter.com/jjcoll",
+        text: "Read Articles",
+        href: "https://medium.com/@jjordicoll",
       },
     },
   ];
@@ -55,7 +57,7 @@ export function Contact() {
     <section className="py-12" id="contact">
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12">
-          <span className="font-mono text-sm text-primary">3. Contact</span>
+          <span className="font-mono text-sm text-primary">4. Contact</span>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Get In Touch
           </h2>

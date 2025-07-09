@@ -44,8 +44,9 @@ export function MobileNav() {
   const navItems = [
     { number: 0, label: "projects", href: "projects" },
     { number: 1, label: "work", href: "work" },
-    { number: 2, label: "about", href: "about" },
-    { number: 3, label: "contact", href: "contact" },
+    { number: 2, label: "articles", href: "articles" },
+    { number: 3, label: "about", href: "about" },
+    { number: 4, label: "contact", href: "contact" },
   ];
 
   return (

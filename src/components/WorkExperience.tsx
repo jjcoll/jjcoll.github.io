@@ -87,16 +87,18 @@ export function WorkExperience() {
       period: { from: "Nov 2024", to: "Present" },
       location: "Amsterdam, Netherlands",
       description:
-        "Leading the development of an AI-powered photobooth application, implementing robust error handling, event mode features, and improving storage systems. Responsible for CI/CD pipelines, Google Drive integration, and designing software architecture to ensure reliability during live events.",
+        "Developing and maintaining web and desktop applications, handling both frontend and backend development. Managing feature development, system maintenance, and deployment processes while working across multiple platforms and technologies.",
       skills: [
+        "Problem Solving",
+        "Startup",
         "TypeScript",
         "Vue.js",
         "Electron",
         "Firebase",
         "Google Cloud",
         "CI/CD",
-        "Error Handling",
         "System Architecture",
+        "React",
       ],
     },
   ];

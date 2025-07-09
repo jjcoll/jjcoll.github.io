@@ -62,7 +62,7 @@ export function About() {
     <section className="py-12" id="about">
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12">
-          <span className="font-mono text-sm text-primary">2. About</span>
+          <span className="font-mono text-sm text-primary">3. About</span>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             About Me
           </h2>

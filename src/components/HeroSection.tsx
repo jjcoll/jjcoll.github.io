@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Download } from "lucide-react";
-import { SiGithub, SiX } from "@icons-pack/react-simple-icons";
+import { SiGithub } from "@icons-pack/react-simple-icons";
+import { FaMedium } from "react-icons/fa";
 
 interface SocialLinkProps {
   href: string;
@@ -34,9 +35,8 @@ export function HeroSection() {
             I build things for the web
           </h2>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            I'm a software engineer specializing in building exceptional digital
-            experiences. Currently, I'm focused on building accessible,
-            human-centered products.
+            I'm a(n aspiring) software engineer specializing in fullstack web
+            application development.
           </p>
         </div>
 
@@ -61,9 +61,9 @@ export function HeroSection() {
               label="LinkedIn"
             />
             <SocialLink
-              href="https://twitter.com/jjcoll"
-              icon={<SiX className="h-5 w-5" />}
-              label="Twitter"
+              href="https://medium.com/@jjordicoll"
+              icon={<FaMedium className="h-5 w-5" />}
+              label="Medium"
             />
           </div>
 
