@@ -43,9 +43,9 @@ export function About() {
       institution: "Fontys University of Applied Sciences",
       degree: "Bachelor of ICT",
       program: "Open Learning (Software Focus)",
-      period: { from: "Feb 2024", to: "Should finish on Feb 2028" },
+      period: { from: "Feb 2024", to: "Expected Feb 2028" },
       description:
-        "Enrolled in the Excellence programme called Delta, focusing on software development through the Open Learning path. The program emphasizes hands-on projects, industry collaboration, and self-directed learning.",
+        "Enrolled in the Excellence programme, focusing on software development through the Open Learning path. The program emphasizes hands-on projects, industry collaboration, and self-directed learning.",
       icon: <BookOpen className="h-5 w-5" />,
     },
     // {
@@ -70,20 +70,16 @@ export function About() {
 
         <div className="grid gap-12 md:grid-cols-2">
           <div>
-            <h3 className="mb-4 text-xl font-bold">Who I Am</h3>
+            {/* <h3 className="mb-4 text-xl font-bold">Who I Am</h3> */}
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm Jordi Coll, a software developer with a passion for solving
-                real world challenges in the web application world. Currently I
-                am studying in the Netherlands, and working on the side as a
-                Software Developer at wesmile, I'm focused on building reliable
-                applications that blend creativity with technical excellence.
+                Getting my Baschelor of Science on ICT, and working on the side
+                as a Software Developer at a AI event startup called wesmile,
               </p>
               <p>
                 {" "}
-                I have been into web development for a couple of years now. When
-                I'm not coding, you can find me exploring business oportunities,
-                like my{" "}
+                When I'm not coding, you can find me exploring business
+                oportunities, like my{" "}
                 <a className="underline text-black" href="https://pokerot.com">
                   pokerot
                 </a>{" "}

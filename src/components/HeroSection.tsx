@@ -35,8 +35,8 @@ export function HeroSection() {
             I build things for the web
           </h2>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            I'm a(n aspiring) software engineer specializing in fullstack web
-            application development.
+            I'm a software engineer specializing in fullstack web application
+            development.
           </p>
         </div>
 
